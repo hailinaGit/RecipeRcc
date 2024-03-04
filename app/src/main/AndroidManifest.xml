@@ -24,9 +24,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".LogIn"
-        android:screenOrientation="locked"
-
-            />
+        android:screenOrientation="locked"/>
+        <activity android:name=".Register"
+            android:screenOrientation="locked"/>
     </application>
 
 </manifest>

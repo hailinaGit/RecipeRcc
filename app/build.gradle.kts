@@ -9,7 +9,11 @@ android {
     namespace = "com.example.recipe"
     compileSdk = 34
     buildFeatures{
+
         viewBinding {
+            enable = true
+        }
+        dataBinding {
             enable = true
         }
     }
@@ -68,6 +72,8 @@ dependencies {
     // optional - Test helpers
     testImplementation("androidx.room:room-testing:$room_version")
     implementation ("com.google.android.material:material:1.11.0")
+    implementation ("androidx.databinding:databinding-runtime:8.3.0")
+
 
     // optional - Paging 3 Integration
     implementation("androidx.room:room-paging:$room_version")
