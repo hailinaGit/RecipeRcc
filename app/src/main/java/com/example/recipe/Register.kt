@@ -16,13 +16,17 @@ class Register : AppCompatActivity() {
         binding = inflate(layoutInflater)
         setContentView(binding.root)
 
-        // Set click listener for textRegoster
+        // Set click listener for textRegister
         binding.textRegister.setOnClickListener{
             navigateToLogin()
         }
 
         binding.icBack.setOnClickListener{
             navigateToLogin()
+        }
+
+        binding.btnRegister.setOnClickListener{
+            startActivity(Intent(this@Register, LogIn::class.java))
         }
 
     }
