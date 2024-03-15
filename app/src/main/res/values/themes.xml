@@ -8,6 +8,8 @@
         
     </style>
 
-
     <style name="Theme.Recipe" parent="Base.Theme.Recipe" />
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/orange</item>
+    </style>
 </resources>

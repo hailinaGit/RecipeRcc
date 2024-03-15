@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.content.Intent
 import com.example.recipe.databinding.ActivityOnboardingBinding
+import com.example.recipe.fragment.Home
 
 class Onboarding : AppCompatActivity() {
     private lateinit var binding: ActivityOnboardingBinding
@@ -15,7 +16,7 @@ class Onboarding : AppCompatActivity() {
 
         // Onboarding -> Home
         binding.btnStarCooking.setOnClickListener{
-            startActivity(Intent(this@Onboarding, Home::class.java))
+            startActivity(Intent(this@Onboarding, MainActivity::class.java))
         }
     }
 }

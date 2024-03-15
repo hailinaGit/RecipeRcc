@@ -32,6 +32,9 @@
 
         <activity android:name=".Onboarding"
             android:screenOrientation="locked"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="locked"/>
+
     </application>
 
 </manifest>

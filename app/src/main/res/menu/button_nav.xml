@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Home"
+        android:id="@+id/bottom_home"
+        android:icon="@drawable/ic_home"
+        android:enabled="true"/>
+    <item
+        android:title="Explore"
+        android:id="@+id/bottom_explore"
+        android:icon="@drawable/ic_search"
+        android:enabled="true"/>
+    <item
+        android:title="Shopping List"
+        android:id="@+id/bottom_shoppingList"
+        android:icon="@drawable/ic_shopping_bag"
+        android:enabled="true"/>
+    <item
+        android:title="Saved Recipes"
+        android:id="@+id/bottom_savedRecipes"
+        android:icon="@drawable/ic_shopping_cart"
+        android:enabled="true"/>
+</menu>
